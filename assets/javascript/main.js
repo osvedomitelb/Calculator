@@ -16,7 +16,7 @@ function aC() {
     operand2 = "";
     result = false;
     resScreen.textContent = "0";
-
+    errors.style.border = "1px solid black";
 }
 
 let reset = document.querySelector(".clear");
